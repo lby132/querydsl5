@@ -46,9 +46,3 @@ tasks.named('test') {
 clean {
 	delete file('src/main/generated')
 }
-//
-//def querydslDir = "$buildFile/generated/querydsl"
-//
-//sourceSets {
-//	main.java.srcDir querydslDir
-//}
